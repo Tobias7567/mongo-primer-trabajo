@@ -1,0 +1,126 @@
+
+>use ecommercer2
+>db.createCollection("productos")
+>db.createCollection("mensajes")
+>db.productos.insertMany([{
+    
+        "nombre" : "fideos",
+        "precio" : 2000,
+        "url" : "url1"
+},
+{
+
+        "nombre" : "fideos",
+        "precio" : 2000,
+        "url" : "url2"
+},
+{
+   
+        "nombre" : "albondigas",
+        "precio" : 4000,
+        "url" : "url3"
+},
+{
+    
+        "nombre" : "fideos",
+        "precio" : 600,
+        "url" : "url4"
+},
+{
+
+        "nombre" : "fideos",
+        "precio" : 2000,
+        "url" : "url5"
+},
+
+        "nombre" : "fideos",
+        "precio" : 4300,
+        "url" : "url6"
+},
+{
+       
+        "nombre" : "fideos",
+        "precio" : 2000,
+        "url" : "url7"
+},
+{
+ 
+        "nombre" : "fideos",
+        "precio" : 1500,
+        "url" : "url8"
+},
+
+        "nombre" : "fideos",
+        "precio" : 1000,
+        "url" : "url9"
+},
+{
+
+        "nombre" : "fideos",
+        "precio" : 606,
+        "url" : "url10"
+}])
+
+>db.mensajes.insertMany([{
+    "gmail": "usuario1@gmail.com",
+    "mensaje": "hola1" ,
+    "hora": "14:48:18",
+
+  }, {
+    "gmail": "usuario2@gmail.com",
+    "mensaje": "hola12" ,
+    "hora": "14:42:18",
+  }, 
+  {
+    "gmail": "usuario3@gmail.com",
+    "mensaje": "hola3" ,
+    "hora": "14:48:18",
+  },
+   {
+    "gmail": "usuario4@gmail.com",
+    "mensaje": "hola4" ,
+    "hora": "14:48:18",
+
+  },
+   {
+    "gmail": "usuario5@gmail.com",
+    "mensaje": "hola5" ,
+    "hora": "14:48:18",
+
+  },
+   {
+    "gmail": "usuario6@gmail.com",
+    "mensaje": "hola6" ,
+    "hora": "14:48:18",
+
+  },
+   {
+    "gmail": "usuario7@gmail.com",
+    "mensaje": "hola7" ,
+    "hora": "14:48:18",
+
+  },
+   {
+    "gmail": "usuario8@gmail.com",
+    "mensaje": "hola8" ,
+    "hora": "14:48:18",
+
+  },
+   {
+    "gmail": "usuario9@gmail.com",
+    "mensaje": "hola9" ,
+    "hora": "14:65:18",
+
+  },
+   {
+    "gmail": "usuario10@gmail.com",
+    "mensaje": "hola10" ,
+    "hora": "15:52:18",
+
+  }])
+
+
+db.productos.find().pretty()
+db.mensajes.find().pretty()
+db.productos.find({"precio":{$lt : 1000}}).pretty()
+db.productos.find({"precio":{$gt : 1000}}).pretty()
