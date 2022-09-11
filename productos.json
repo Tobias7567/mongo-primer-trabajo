@@ -1,0 +1,63 @@
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20c6"),
+    "nombre" : "fideos",
+    "precio" : 2000,
+    "url" : "url1",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20c7"),
+    "nombre" : "fideos",
+    "precio" : 2000,
+    "url" : "url2",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20c8"),
+    "nombre" : "albondigas",
+    "precio" : 4000,
+    "url" : "url3",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20ca"),
+    "nombre" : "fideos",
+    "precio" : 2000,
+    "url" : "url5",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20cb"),
+    "nombre" : "fideos",
+    "precio" : 4300,
+    "url" : "url6",
+    "stock" : 0
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20cc"),
+    "nombre" : "fideos",
+    "precio" : 2000,
+    "url" : "url7",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20cd"),
+    "nombre" : "fideos",
+    "precio" : 1500,
+    "url" : "url8",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dc56d9ed93760de4a20ce"),
+    "nombre" : "fideos",
+    "precio" : 1000,
+    "url" : "url9",
+    "stock" : 100
+}
+{
+    "_id" : ObjectId("631dca089ed93760de4a20da"),
+    "nombre" : "hamburgesa",
+    "precio" : 4000,
+    "url" : "url11",
+    "stock" : 100
+}
